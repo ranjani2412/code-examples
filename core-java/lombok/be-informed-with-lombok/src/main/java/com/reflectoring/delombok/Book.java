@@ -60,6 +60,10 @@ public class Book {
     }
 
     public String toString() {
-        return "Book(isbn=" + this.getIsbn() + ", publication=" + this.getPublication() + ", title=" + this.getTitle() + ", authors=" + this.getAuthors() + ", genre=" + this.getGenre() + ")";
+        return "Book(isbn=" + this.getIsbn() + "," +
+                " publication=" + this.getPublication() +
+                ", title=" + this.getTitle() + ", " +
+                "authors=" + this.getAuthors() + ", " +
+                "genre=" + this.getGenre() + ")";
     }
 }
